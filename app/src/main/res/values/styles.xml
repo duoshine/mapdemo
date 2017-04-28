@@ -1,0 +1,224 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+     <!-- 返回键样式 -->
+    <style name="style_back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@drawable/none</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="NativeDialog" parent="@style/MyDialog">
+    </style>
+
+
+    <style name="text_title_blank">
+        <item name="android:textColor">@color/cc_text_blank</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <style name="text_title_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <style name="text_title_darklight">
+        <item name="android:textColor">@color/cc_text_darklight</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <style name="text_title_logolight">
+        <item name="android:textColor">@color/cc_text_logolight</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <style name="text_title_light">
+        <item name="android:textColor">@color/cc_text_light</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <style name="text_mintitle_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_mintitle</item>
+    </style>
+
+    <style name="text_mintitle_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_mintitle</item>
+    </style>
+
+    <style name="text_subig_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_subig</item>
+    </style>
+
+    <style name="text_subig_orage">
+        <item name="android:textColor">@color/cc_orage</item>
+        <item name="android:textSize">@dimen/text_subig</item>
+    </style>
+
+    <style name="text_subig_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_subig</item>
+    </style>
+
+    <style name="text_big_cofee">
+        <item name="android:textColor">@color/cc_cofee</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_big_orage">
+        <item name="android:textColor">@color/cc_orage</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_big_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_big_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_big_blank">
+        <item name="android:textColor">@color/cc_text_blank</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_big_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_nomal_blank">
+        <item name="android:textColor">@color/cc_text_blank</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_bluelight">
+        <item name="android:textColor">@color/cc_bluelight</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_orage">
+        <item name="android:textColor">@color/cc_orage</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_orage_red">
+        <item name="android:textColor">@color/cc_orage_red</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_red">
+        <item name="android:textColor">@color/cc_red</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_darklight">
+        <item name="android:textColor">@color/cc_text_darklight</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_logolight">
+        <item name="android:textColor">@color/cc_text_logolight</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_light">
+        <item name="android:textColor">@color/cc_text_light</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_small_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text_small_blank">
+        <item name="android:textColor">@color/cc_text_blank</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text_small_orage">
+        <item name="android:textColor">@color/cc_orage</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text_small_red">
+        <item name="android:textColor">@color/cc_red</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text_small_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text_small_darklight">
+        <item name="android:textColor">@color/cc_text_darklight</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text_small_light">
+        <item name="android:textColor">@color/cc_text_light</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text_smalltiny_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_smalltiny</item>
+    </style>
+
+    <style name="text_smalltiny_red">
+        <item name="android:textColor">@color/cc_red</item>
+        <item name="android:textSize">@dimen/text_smalltiny</item>
+    </style>
+
+    <style name="text_tiny_light">
+        <item name="android:textColor">@color/cc_text_light</item>
+        <item name="android:textSize">@dimen/text_tiny</item>
+    </style>
+
+    <style name="text_tiny_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_tiny</item>
+    </style>
+</resources>
